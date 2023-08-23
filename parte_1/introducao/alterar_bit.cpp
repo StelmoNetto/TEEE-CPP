@@ -12,7 +12,7 @@ int  main()
   int mascara  =  LSB  <<  posicaoDoBit;  //0b0000  ...  1000
   mascara  =  resultadoDaNegacaoControlada & mascara; //0b1111...1100 &  0b0000...1000 = 0b0000...1000
 
-  Altera um único bit para x (valorDoBit) em posicaoDoBit
+  //Altera um único bit para x (valorDoBit) em posicaoDoBit
   int resultado  =  numero  ^  mascara;  //0b0000  ...  0011 ^ 0b0000  ...  1000 = 0b0000  ...  1011
   cout << resultado << endl;
 }

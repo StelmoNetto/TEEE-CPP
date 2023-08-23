@@ -1,6 +1,6 @@
 
-import <iomanip>;
-import<iostream>;
+#include<iomanip>
+#include<iostream>
 using namespace std; //Inclui toda a biblioteca-padrão do namespace std no código fonte
 
 int main()
@@ -39,6 +39,7 @@ int main()
 
   //Exemplo de formatação da saída em ponto flutuante com ios
   {
+		auto preco{ 7.753 };
     cout.setf(ios::fixed); //Notação não científica de números reais
     cout.setf(ios::showpoint); //Sempre mostra o ponto, mesmo sem decimal
     cout.precision(2); //Duas casas decimais

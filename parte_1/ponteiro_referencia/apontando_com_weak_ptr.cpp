@@ -18,5 +18,5 @@ int main()
 
     //std::weak_ptr<int> novoWeak{ sharedPtr }; //Sucesso
 
-    //std::shared_ptr<int> novoShared{ weakSimple }; //Erro
+    //std::shared_ptr<int> novoShared{ weakSimple }; //Erro: recurso apontado por weakSimple não existe mais
 }

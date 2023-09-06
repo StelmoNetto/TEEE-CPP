@@ -5,9 +5,9 @@ int main()
 {
     int vetor[]{ 3,4,5 };
 
-    int* const apenasPtrConst = vetor; // ponteiro constante
+    int* const apenasPtrConstante = vetor; // ponteiro constante
 
-    apenasPtrConst[0] = 2; // permite alteração dos elementos
+    apenasPtrConstante[0] = 2; // permite alteração dos elementos
 
-    apenasPtrConst = nullptr; // Erro: não pode alterar o valor do ponteiro
+    apenasPtrConstante = nullptr; // Erro: não pode alterar o valor do ponteiro
 }

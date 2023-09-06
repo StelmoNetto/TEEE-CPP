@@ -5,7 +5,7 @@ int main()
 {
     int vetor[]{ 3,4,5 };
 
-    const int* ptrVetor = vetor;
+    const int* ptrParaInteirosConstantes = vetor;
 
-    ptrVetor[0] = 2; // Erro: não pode alterar os elementos do vetor
+    ptrParaInteirosConstantes[0] = 2; // Erro: não pode alterar os elementos do vetor
 }

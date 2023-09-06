@@ -10,4 +10,13 @@ int main()
     cout << "Contagem de ponteiros = " << sharedPtr.use_count() << endl; // saída é 1.
 
     auto novoSharedPtr { weakSimple.lock() };
+
+    cout << "Contagem de ponteiros = " << sharedPtr.use_count() << endl; // saída é 2.
+
+    novoSharedPtr.reset();
+    sharedPtr.reset();
+
+    //std::weak_ptr<int> novoWeak{ sharedPtr }; //Sucesso
+
+    //std::shared_ptr<int> novoShared{ weakSimple }; //Erro
 }

@@ -40,7 +40,7 @@ int main()
         break;
 
         case BANDEIRA_VERMELHA_1:
-        [[fallthrough]]; //Não esqueça do ;
+        [[fallthrough]]; //Não esqueça do ; Indica que a falta do break é proposital
         case BANDEIRA_VERMELHA_2:
           adicionalDeBanderia = 0.09492F;
         break;

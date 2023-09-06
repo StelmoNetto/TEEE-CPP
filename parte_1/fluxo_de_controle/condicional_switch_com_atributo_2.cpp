@@ -8,7 +8,7 @@ int main()
     case '1':
       //Executa alguma tarefa para resposta == '1'
       cout << "resposta == '1'" << endl;
-      [[fallthrough]]; //Não esqueça do ;
+      [[fallthrough]]; //Não esqueça do ; Indica que a falta do break é proposital
     case '2':
       //Executa alguma tarefa para resposta == '1' ou '2'
       cout << "resposta == '1' ou '2'" << endl;

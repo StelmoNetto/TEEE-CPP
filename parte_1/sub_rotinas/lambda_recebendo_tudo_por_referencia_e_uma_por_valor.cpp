@@ -7,4 +7,6 @@ int main()
 	int n = 0;
 
 	[&, n](int a) mutable { m = ++n + a; }(4); //Definição e chamada
+
+	cout << "m = " << m << " n = " << n;
 }

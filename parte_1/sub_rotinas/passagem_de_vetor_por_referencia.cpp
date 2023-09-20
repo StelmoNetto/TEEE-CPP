@@ -6,7 +6,7 @@ void alteraPrimeiroElementoDoVetor(float (&vetor)[], float valor) //referência 
     vetor[0] = valor;
 }
 
-float primeiroElementoDoVetor(const float (&vetor)[]) //referência const para vetor – significa que os elementos não podem ser alterados.
+float primeiroElementoDoVetor(const float (&vetor)[2]) //referência const para vetor – significa que os elementos não podem ser alterados.
 {
     return vetor[0];
 }

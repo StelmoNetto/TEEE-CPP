@@ -5,7 +5,7 @@ const int LEITOR_DE_CODIGO_DE_BARRA = 2;
 
 [[noreturn]] void forcarSaidaDoPrograma() { std::exit(1); }
 
-bool dispositivoEstaDisponivel()
+bool dispositivoEstaDisponivel(int idDoRecurso)
 {
  bool disponivel{ false };
  return disponivel;
@@ -13,7 +13,7 @@ bool dispositivoEstaDisponivel()
 
 bool recursoEstaLicenciado(int idDoRecurso)
 {
-  auto dispositivoNaoEstaDisponivel = !dispositivoEstaDisponivel();
+  auto dispositivoNaoEstaDisponivel = !dispositivoEstaDisponivel(idDoRecurso);
 
   if (dispositivoNaoEstaDisponivel)
     forcarSaidaDoPrograma(); //retorno antecipado

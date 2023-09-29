@@ -14,7 +14,7 @@ int main()
 
     cout << "campo1 = " << campos.campo1 << endl;
     cout << "campo2 = " << campos.campo2 << endl;
-    cout << "campo3 = " << campos.campo3 << endl;
+    cout << "campo3 = " << campos.campo3 << endl << endl;
 
     campos.campo3 = 20;
 

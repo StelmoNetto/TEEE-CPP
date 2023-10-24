@@ -1,0 +1,4 @@
+namespace Funcoes
+{
+  void funcao();
+}

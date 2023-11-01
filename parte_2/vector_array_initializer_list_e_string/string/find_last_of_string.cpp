@@ -9,5 +9,5 @@ int main()
     cout << str.find_last_of("/\\")<<'\n';
 
     string str1{ R"(c:\windows\winhelp.exe)" }; //literal para C-string
-    cout << str1.find_last_of("/\\") << '\n';
+    cout << str1.find_last_of(R"(/\)") << '\n';
 }

@@ -15,5 +15,5 @@ int main()
 
     //Não é possível usar formatação com e sem índice
     //Comentar a linha abaixo
-    std::cout  <<  format("Leu  {1}  bytes  de  {}",  "arq.txt",  n)  <<  std::endl;
+    //std::cout  <<  format("Leu  {1}  bytes  de  {}",  "arq.txt",  n)  <<  std::endl;
 }

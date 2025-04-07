@@ -5,4 +5,5 @@ using namespace std; //Inclui toda a biblioteca-padrão do namespace std no cód
 int main()
 {
     cout<<"\t \\ \a \' \n \b \? "<<endl;
+    cout << "\vk\v\rm\v\r\b\bx";
 }

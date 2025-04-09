@@ -7,6 +7,7 @@ int main()
     auto quantidade{ 5 };
 
     //Sem usar o namespace std
-    std::cout << preco << "\n";
-    std::cout << preco <<" "<< quantidade;
+    std::cout << preco;
+    std::cout << "\n" << preco <<" "<< quantidade << "\n";
+    std::cout << preco <<" "<< quantidade << std::endl;
 }

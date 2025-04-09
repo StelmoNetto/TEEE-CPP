@@ -8,5 +8,6 @@ int main()
     int quantidade;
 
     //Usando o namespace std
+    cout << "Entre com o preço e a quantidade na mesma linha e separada por espaço\n";
     cin >> preco >> quantidade;
 }

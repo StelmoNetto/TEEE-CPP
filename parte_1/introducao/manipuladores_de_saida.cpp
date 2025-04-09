@@ -52,4 +52,13 @@ int main()
 		cout.precision(2); //Duas casas decimais
 		cout << preco << endl;
 	}
+
+
+	{
+		auto preco{ 7.753 };
+		std::cout.setf(std::ios::fixed | std::ios::showpos); //Notação não científica de números reais e mostra sinal positivo
+		std::cout.precision(2); //Duas casas decimais
+		std::cout << preco << std::endl;
+	}  	 
+	
 }
